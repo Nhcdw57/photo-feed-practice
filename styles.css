@@ -1,0 +1,48 @@
+body{ 
+    background-color: grey;
+    margin: 0px;
+}
+header{
+    background: white;
+    padding: 10px;
+
+}
+header h1{
+    margin: 0px;
+}
+div.post{
+    background-color: white;
+    margin: 40px;
+}
+div.post img{
+    width: 100%;
+}
+div.post h2, div.post p{
+    padding: 10px;
+}
+div.post .post-header{
+    display: flex;
+    align-items: center;
+}
+div.post-header h2{
+    width:87%;
+    margin:0px;
+}
+div.post-header span{
+    color:grey;
+}
+
+div.centerContainer{
+    width:600px;
+    margin: auto;
+}
+
+
+
+
+
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
